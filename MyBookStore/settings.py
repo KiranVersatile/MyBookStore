@@ -78,6 +78,16 @@ TEMPLATES = [
         },
     },
 ]
+CSRF_TRUSTED_ORIGINS = [
+    "https://mybookstore-9u4e.onrender.com",
+]
+
+ALLOWED_HOSTS = [
+    "mybookstore-9u4e.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
+
 
 WSGI_APPLICATION = 'MyBookStore.wsgi.application'
 
